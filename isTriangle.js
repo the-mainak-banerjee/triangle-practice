@@ -20,6 +20,8 @@ const calculateIsTriangle = (input1, input2, input3) => {
 
 const handleClick = () => {
 
+    result.style.display = 'none'
+    
     const angle1 = angles[0].value
     const angle2 = angles[1].value
     const angle3 = angles[2].value
