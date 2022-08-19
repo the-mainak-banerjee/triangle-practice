@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+
+    <nav>
+        <h2 class="nav-header">The Triangle</h2>
+        <ul class="nav-pills">
+            <li><a class="nav-links" href="index.html">Is Triangle</a></li>
+            <li><a class="nav-links" href="area.html">Area</a></li>
+            <li><a class="nav-links" href="hypotenuse.html">Hypotenues</a></li>
+            <li><a class="nav-links active" href="quiz.html">Quiz</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2 class="action-header">Triangle Quiz</h2>
+        <div class="action-box">
+            <h4 class="action-desc">Check your knowledge about triangles!!!</h4>
+    
+            <form id="quiz-form">
+    
+                <div class="quiz-question">
+                    <p>Q1. What is an "Acute" Angle?</p>
+                    <input id="que1-opt2" class="wrong" type="radio" name="que1" value="An Angle that measures 90"/>
+                    <label for="que1-opt2">An Angle that measures 90</label>
+                    <input id="que1-opt3" class="wrong" type="radio" name="que1" value="An angle that measures more than 90"/>
+                    <label for="que1-opt3">An angle that measures more than 90</label>
+                    <input id="que1-opt4" class="right" type="radio" name="que1" value="An angle that measures less than 90"/>
+                    <label for="que1-opt4">An angle that measures less than 90</label>
+                </div>
+                
+                <div class="quiz-question">
+                    <p>Q2. What is the name of a triangle with equal vertices?</p>
+                    <input id="que2-opt1" class="right" type="radio" name="que2" value="Equilateral"/>
+                    <label for="que2-opt1">Equilateral</label>
+                    <input id="que2-opt2" class="wrong" type="radio" name="que2" value="Train"/>
+                    <label for="que2-opt2">Train</label>
+                    <input id="que2-opt3" class="wrong" type="radio" name="que2" value="Triennial"/>
+                    <label for="que2-opt3">Triennial</label>
+                </div>
+                
+                <div class="quiz-question">
+                    <p>Q3. What is the longest side of a triangle called?</p>
+                    <input id="que3-opt1" class="wrong" type="radio" name="que3" value="Hyppo"/>
+                    <label for="que3-opt1">Hyppo</label>
+                    <input id="que3-opt2" class="wrong" type="radio" name="que3" value="Hypopothamus"/>
+                    <label for="que3-opt2">Hypopothamus</label>
+                    <input id="que3-opt3" class="right" type="radio" name="que3" value="Hypotenuse"/>
+                    <label for="que3-opt3">Hypotenuse</label>
+                </div>
+    
+                <div class="quiz-question">
+                    <p>Q4. Which of these lengths can represent a triangle?</p>
+                    <input id="que4-opt1" class="right" type="radio" name="que4" value="5, 5√3, 10"/>
+                    <label for="que4-opt1">5, 5√3, 10</label>
+                    <input id="que4-opt2" class="wrong" type="radio" name="que4" value="6, 7√2, 16"/>
+                    <label for="que4-opt2">6, 7√2, 16</label>
+                    <input id="que4-opt3" class="wrong" type="radio" name="que4" value="5,9,15"/>
+                    <label for="que4-opt3">5,9,15</label>
+                </div>
+    
+                <div class="quiz-question">
+                    <p>Q5. One of the acute angles in a right angle has a measure of 79.6 degrees. What is the measure of the other acute angle?</p>
+                    <input id="que5-opt1" class="wrong" type="radio" name="que5" value="90 Degree"/>
+                    <label for="que5-opt1">90 Degree</label>
+                    <input id="que5-opt2" class="wrong" type="radio" name="que5" value="79.6 Degree"/>
+                    <label for="que5-opt2">79.6 Degree</label>
+                    <input id="que5-opt3" class="right" type="radio" name="que5" value="10.4 Degree"/>
+                    <label for="que5-opt3">10.4 Degree</label>
+                </div>
+    
+                <div class="quiz-question">
+                    <p>Q6. A triangle that has NO sides congruent is classified as a(an)______________.</p>
+                    <input id="que6-opt1" class="wrong" type="radio" name="que6" value="Equilateral triangle"/>
+                    <label for="que6-opt1">Equilateral triangle</label>
+                    <input id="que6-opt2" class="right" type="radio" name="que6" value="Scalene triangle"/>
+                    <label for="que6-opt2">Scalene triangle</label>
+                    <input id="que6-opt3" class="wrong" type="radio" name="que6" value="Odd triangle"/>
+                    <label for="que6-opt3">Odd triangle</label>
+                </div>
+    
+                <div class="quiz-question">
+                    <p>Q7. The sum of the length of any two sides of a triangle is </p>
+                    <input id="que7-opt1" class="right" type="radio" name="que7" value="Greater Than The third Side"/>
+                    <label for="que7-opt1">Greater Than The third Side</label>
+                    <input id="que7-opt2" class="wrong" type="radio" name="que7" value="Less Than The third Side"/>
+                    <label for="que7-opt2">Less Than The third Side</label>
+                    <input id="que7-opt3" class="wrong" type="radio" name="que7" value="Equal To The third Side"/>
+                    <label for="que7-opt3">Equal To The third Side</label>
+                </div>
+    
+                <div class="quiz-question">
+                    <p>Q8. Two angles of a triangle are 60 Degree and 30 Degree, then what is the measure of 3rd angle?</p>
+                    <input id="que8-opt1" class="wrong" type="radio" name="que8" value="30 Degree"/>
+                    <label for="que8-opt1">30 Degree</label>
+                    <input id="que8-opt2" class="right" type="radio" name="que8" value="90 Degree"/>
+                    <label for="que8-opt2">90 Degree</label>
+                    <input id="que8-opt3" class="wrong" type="radio" name="que8" value="45 Degree"/>
+                    <label for="que8-opt3">45 Degree</label>
+                </div>
+    
+                <div class="quiz-question">
+                    <p>Q9. How to calculate the area of a triangle?</p>
+                    <input id="que9-opt1" class="right" type="radio" name="que9" value="(base * height)/2"/>
+                    <label for="que9-opt1">(base * height)/2</label>
+                    <input id="que9-opt2" class="wrong" type="radio" name="que9" value="(base/height)*2"/>
+                    <label for="que9-opt2">(base/height)*2</label>
+                    <input id="que9-opt3" class="wrong" type="radio" name="que9" value="(base * height)"/>
+                    <label for="que9-opt3">(base * height)</label>
+                </div>
+    
+                <div class="quiz-question">
+                    <p>Q10. A triangle with different angles and different sides is called</p>
+                    <input id="que10-opt1" class="wrong" type="radio" name="que10" value="Right Angle Triangle"/>
+                    <label for="que10-opt1">Right Angle Triangle</label>
+                    <input id="que10-opt2" class="wrong" type="radio" name="que10" value="Vertical Triangle"/>
+                    <label for="que10-opt2">Vertical Triangle</label>
+                    <input id="que10-opt3" class="right" type="radio" name="que10" value="Scalene Triangle"/>
+                    <label for="que10-opt3">Scalene Triangle</label>
+                </div>
+    
+            </form>
+    
+            <button id="submit-button"> Submit Answers </button>
+    
+            <div>
+                <p id="result"></p>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <script src="quiz.js"></script>
+</body>
+</html>

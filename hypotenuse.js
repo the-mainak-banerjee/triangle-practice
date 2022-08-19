@@ -3,15 +3,16 @@ const checkBtn = document.querySelector('#check-btn')
 const result = document.querySelector('#result')
 
 
-const showMessage = (msg) => {
+const showMessage = (msg, color) => {
     result.style.display = 'block'
     result.innerText = msg
+    result.style.borderColor = color
 }
 
 
 const calculateHypotenuse = (base,height) => {
     const result = Math.sqrt(base * base + height * height)
-    showMessage(`The length of Hypotenuse is ${result} cm`)
+    showMessage(`The length of Hypotenuse is ${result} cm`, '#10b981')
 }
 
 
@@ -23,9 +24,9 @@ const handleClick = () => {
 
 
     if(base === 0 || height === 0){
-        showMessage('Please add both the values')
+        showMessage('Please add both the values', 'red')
     }else if(base < 0 || height < 0) {
-        showMessage('Please add all positive values')
+        showMessage('Please add all positive values', 'red')
     }else{
         calculateHypotenuse(base,height)
     }

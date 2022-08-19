@@ -5,27 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangle-Practice</title>
+    <link rel="stylesheet" href="style.css"></link>
 </head>
 <body>
-    <h2>Is Triangle</h2>
-    <div>
-        <h4>Input 3 values foe angle and find if they can create a Triangle ot not</h4>
 
-        <label for="input-1">1st angle: </label>
-        <input type="number" id="input-1"><br>
-        
-        <label for="input-2">2nd angle: </label>
-        <input type="number" id="input-2"><br>
+    <nav>
+        <h2 class="nav-header">The Triangle</h2>
+        <ul class="nav-pills">
+            <li><a class="nav-links active" href="index.html">Is Triangle</a></li>
+            <li><a class="nav-links" href="area.html">Area</a></li>
+            <li><a class="nav-links" href="hypotenuse.html">Hypotenues</a></li>
+            <li><a class="nav-links" href="quiz.html">Quiz</a></li>
+        </ul>
+    </nav>
 
-        <label for="input-3">3rd angle: </label>
-        <input type="number" id="input-3"><br>
-
-        <button id="check-btn">Submit</button>
-
-        <div>
-            <p id="result"></p>
+    <section>
+        <h2 class="action-header">Is Triangle</h2>
+        <div class="action-box">
+            <h4 class="action-desc">Input 3 values foe angle and find if they can create a Triangle or not</h4>
+    
+            <label for="input-1">1st angle: </label>
+            <input type="number" id="input-1" min="1"><br>
+            
+            <label for="input-2">2nd angle: </label>
+            <input type="number" id="input-2" min="1"><br>
+    
+            <label for="input-3">3rd angle: </label>
+            <input type="number" id="input-3" min="1"><br>
+    
+            <button id="check-btn">Submit</button>
+    
+            <div>
+                <p id="result"></p>
+            </div>
         </div>
-    </div>
+    </section>
+
 
     <script src="isTriangle.js"></script>
 </body>
