@@ -107,10 +107,11 @@ section{
 /* Footer */
 
 footer{
-    background-color: #49A0EB;
+    background-color: #10b981;
     padding: 30px;
     text-align: center;
     margin-top: 50px;
+    color:'white'
 }
 
 footer>ul{
