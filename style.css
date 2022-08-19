@@ -38,6 +38,7 @@ nav{
 section{
     width: 70vw;
     margin: 1rem auto;
+    min-height: 100vh;
 }
 
 .action-box{
@@ -100,4 +101,26 @@ section{
 
 .quiz-question>label {
     margin-right: 0.2rem;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #49A0EB;
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer>ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+footer>ul>li {
+    padding: 20px;
 }
