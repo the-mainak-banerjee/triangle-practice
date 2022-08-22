@@ -54,11 +54,18 @@ section{
 .action-desc{
     padding: 10px;
     font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.action-box > label {
+    font-size: 1.5rem;
 }
 
 .action-box > input {
     margin-bottom: 30px;
-    border-radius: 0.4rem;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 2rem;
 }
 
 .action-box > button {
@@ -67,7 +74,7 @@ section{
     background-color: #10b981;
     color: white;
     border-radius: 2rem;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     cursor: pointer;
 }
 
@@ -78,7 +85,7 @@ section{
 #result{
     margin: 30px;
     padding: 20px;
-    font-size: 1.2rem;
+    font-size: 2rem;
     display: none;
     border: 2px solid;
     border-radius: 10px;
@@ -94,13 +101,14 @@ section{
 }
 
 .quiz-question > p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 0.8rem;
 }
 
 .quiz-question>label {
     margin-right: 0.2rem;
+    font-size: 1.3rem;
 }
 
 

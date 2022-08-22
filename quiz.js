@@ -55,7 +55,7 @@ const submitButtonHandler = () => {
     if(counter === radioButtons.length/3){
         calculateTotalScore()
     }else{
-        showMessage('Please select all Options First', 'red')
+        showMessage('Please Answer All The Questions First', 'red')
     }
 }
 
