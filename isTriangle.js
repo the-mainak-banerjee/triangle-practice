@@ -23,14 +23,16 @@ const handleClick = () => {
 
     result.style.display = 'none'
     
-    const angle1 = angles[0].value
-    const angle2 = angles[1].value
-    const angle3 = angles[2].value
+    const angle1 = Number(angles[0].value)
+    const angle2 = Number(angles[1].value)
+    const angle3 = Number(angles[2].value)
 
     if(angle1 < 0 || angle2 < 0 || angle3 < 0){
         showMessage('Please add all positive angles', 'red')
     }else if(angle1 === '' || angle2 === '' || angle3 === ''){
         showMessage("Please Add All The Values", 'red')
+    }else if(angle1 === 0 || angle2 === 0 || angle3 === 0){
+        showMessage('Angle can not be zero', 'red')
     } 
     else{
         calculateIsTriangle(angle1, angle2, angle3)
